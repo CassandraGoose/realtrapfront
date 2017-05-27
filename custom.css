@@ -1,0 +1,19 @@
+.ack {
+  position: relative;
+}
+
+body {
+  background-image: url('/img/gradient.jpg');
+  font-family: star, Helvetica, Arial, sans-serif !important;
+  color: #f9f3ec !important;
+}
+
+.button {
+  color: black;
+}
+
+@font-face {
+    font-family: star;
+    src: url(star.ttf);
+    font-weight:500;
+}
