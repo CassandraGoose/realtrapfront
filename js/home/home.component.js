@@ -14,7 +14,7 @@ function HomeController($http, $stateParams, $state, $timeout) {
   function playSound() {
     console.log("button");
     vm.showButton = false
-    $http.get("http://127.0.0.1:4000/")
+    $http.get("http://192.168.1.12:4000/")
       .then(function() {
         $timeout(function(){
           vm.showButton = true
