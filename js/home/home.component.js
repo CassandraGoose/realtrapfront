@@ -18,7 +18,7 @@ function HomeController($http, $stateParams, $state, $timeout) {
       .then(function() {
         $timeout(function(){
           vm.showButton = true
-        }, 4000)
+        }, 2000)
       })
   }
 }
