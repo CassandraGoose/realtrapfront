@@ -14,7 +14,7 @@ function HomeController($http, $stateParams, $state, $timeout) {
   function playSound() {
     console.log("button");
     vm.showButton = false
-    $http.get("https://itsatraps.localtunnel.me")
+    $http.get("https://itsatrap.localtunnel.me")
       .then(function() {
         console.log("getting the shit out of this");
         $timeout(function(){
